@@ -10,7 +10,7 @@ function App() {
 
 
   function handleHide(e){
-    e.target.innerText = hide === true ? "Hide Comments" : "Show Comments"; 
+    e.target.innerText = hide === false ? "Hide Comments" : "Show Comments"; 
     setHide(!hide)
   }
  
